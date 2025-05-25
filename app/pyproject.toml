@@ -1,5 +1,5 @@
 [project]
-name = "taipy-course-gui"
+name = "taipy-course"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -7,9 +7,9 @@ requires-python = ">=3.11"
 dependencies = [
     "geopandas>=1.0.1",
     "plotly>=6.0.1",
+    "polars>=1.27.1",
     "taipy-enterprise",
-    "taipy>=4.0.3",
 ]
 
 [tool.uv.sources]
-taipy-enterprise = { path = "taipy-enterprise-4.0.3.tar.gz" }
+taipy-enterprise = { path = "taipy-enterprise-4.1.0.dev11.tar.gz" }
